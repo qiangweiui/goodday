@@ -1,4 +1,4 @@
-import type { Plugin } from "vue";
+import type { Plugin } from 'vue';
 declare type SFCWithInstall<T> = T & Plugin;
 export declare const Button: SFCWithInstall<import("vue").DefineComponent<{
     type: {
